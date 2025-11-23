@@ -1,0 +1,6 @@
+Hierarquia de tabelas simples
+
+Table
+	table rows
+		table header
+			table data

@@ -10,17 +10,20 @@
         }
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
         }
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center;
+            vertical-align: middle;
         }
-        tr.linha {
-            background-color: gray;
+        .top {
+            vertical-align: top;
         }
-        td.dado {
-            background-color: yellow;
+        .bottom {
+            vertical-align: bottom;
         }
     </style>
 </head>
@@ -30,27 +33,27 @@
 
         <tr>
             <!-- Primeira linha-->
-             <td>A1</td>
+             <td class="top">A1</td>
              <td>B1</td>
-             <td>C1</td>
+             <td class="bottom">C1</td>
         </tr>
             <!-- Segunda linha-->
-        <tr class="linha">
-            <td>A2</td>
+        <tr>
+            <td class="top">A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="bottom">C2</td>
         </tr>
         <tr>
             <!-- Terceira linha-->
-            <td>A3</td>
+            <td class="top">A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="bottom">C3</td>
         </tr>
         <tr>
             <!-- Quarta linha -->
-            <td>A4</td>
+            <td class="top">A4</td>
             <td class="dado">B4</td>
-            <td>C4</td>
+            <td class="bottom">C4</td>
         </tr>
     </table>
 </body>
